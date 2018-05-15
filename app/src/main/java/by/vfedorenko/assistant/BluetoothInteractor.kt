@@ -22,7 +22,7 @@ class BluetoothInteractor(private val activity: Activity) {
 
     companion object {
         private const val ADAPTER_FRIENDLY_NAME = "Android Things Assistant"
-        private const val DISCOVERABLE_TIMEOUT_MS = 300
+        private const val DISCOVERABLE_TIMEOUT_MS = 10_000
         private const val REQUEST_CODE_ENABLE_DISCOVERABLE = 100
         private const val UTTERANCE_ID = "by.vfedorenko.assistant.UTTERANCE_ID"
     }
